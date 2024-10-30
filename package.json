@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "gh-action-example",
+  "version": "1.0.0",
+  "description": "GitHub action mini example",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Progmasters",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "jest": "^22.1.4"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost"
+  },
+  "dependencies": {
+    "gh-action-example": "file:"
+  }
+}

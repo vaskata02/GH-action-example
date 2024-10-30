@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            width: 70%;
+            margin: 3% auto;
+            box-shadow: 1px 4px 4px 0 rgba(30,30,30,0.3);
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div h1 {
+            text-align: center;
+        }
+
+        div button {
+            border-radius: 5px;
+            padding: 7px;
+            background-color: aqua;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>My random word test result is: <span></span> </h1>
+        <button onclick="renderResultIntoHtml()">Get random World</button>
+    </div>
+
+    <script src="index.js" type="module"></script>
+
+</body>
+</html>
